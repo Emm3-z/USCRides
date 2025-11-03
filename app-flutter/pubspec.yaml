@@ -1,0 +1,45 @@
+name: usc_rides_flutter
+description: Aplicación móvil colaborativa para la comunidad universitaria de la USC.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Lista de dependencias (paquetes de herramientas) que usará la aplicación.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos de estilo iOS. Es bueno tenerlos.
+  cupertino_icons: ^1.0.2
+
+  # Para hacer peticiones HTTP a nuestro backend.
+  http: ^1.1.0
+
+  # Para manejar el estado de la aplicación (ej. saber si el usuario está logueado o no).
+  provider: ^6.0.5
+
+  # Para guardar pequeños datos en el dispositivo, como el token de sesión.
+  shared_preferences: ^2.2.1
+
+  # Para integrar Google Maps en la aplicación.
+  google_maps_flutter: ^2.5.0
+
+  # Para obtener la ubicación GPS del dispositivo.
+  geolocator: ^10.1.0
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# La siguiente sección es para la configuración específica de Flutter.
+flutter:
+  uses-material-design: true
+
+  
